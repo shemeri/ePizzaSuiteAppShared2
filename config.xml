@@ -7,10 +7,10 @@
         id        = "com.webwapsolutions.epizzaapp.gaerumvejenspizza"
         version   = "1.0.0">
 
-    <name>Sason Pizza & Kebabhouse</name>
+    <name>Sason Pizza og Kebabhouse</name>
     <description>
         <!--ePizza Suite App til din hjemmeside-->
-		Sason Pizza & Kebabhouse - Pizzeria App powered by ePizza Suite Pro - leveret af Web Wap Solutions
+		Sason Pizza og Kebabhouse - Pizzeria App powered by ePizza Suite Pro - leveret af Web Wap Solutions
     </description>
     <author href="http://webwapsolutions.com" email="support@webwapsolutions.com">
         Web Wap Solutions Team

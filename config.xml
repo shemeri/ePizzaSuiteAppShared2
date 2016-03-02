@@ -4,13 +4,13 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         xmlns:android = "http://schemas.android.com/apk/res/android"
-        id        = "com.webwapsolutions.epizzaapp.bazarpizza"
+        id        = "com.webwapsolutions.epizzaapp.nyvangspizza"
         version   = "1.0.0">
 
-    <name>Bazar Pizza og Grill</name>
+    <name>Nyvangs Pizza</name>
     <description>
         <!--ePizza Suite App til din hjemmeside-->
-		Bazar Pizza og Grill - Brabrand - Pizzeria App powered by ePizza Suite Pro - leveret af Web Wap Solutions
+		Nyvangs Pizza Randers- Pizzeria App powered by ePizza Suite Pro - leveret af Web Wap Solutions
     </description>
     <author href="http://webwapsolutions.com" email="support@webwapsolutions.com">
         Web Wap Solutions Team

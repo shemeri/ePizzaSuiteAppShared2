@@ -4,13 +4,13 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         xmlns:android = "http://schemas.android.com/apk/res/android"
-        id        = "com.webwapsolutions.epizzaapp.lvpizza"
+        id        = "com.webwapsolutions.epizzaapp.foodlounge"
         version   = "1.0.0">
 
-    <name>La Vigna Pizzaria</name>
+    <name>Food Lounge</name>
     <description>
         <!--ePizza Suite App til din hjemmeside-->
-		La Vigna Pizzaria Aarhus- Pizzeria App powered by ePizza Suite Pro - leveret af Web Wap Solutions
+		Food Lounge - Aarhus - Pizzeria App powered by ePizza Suite Pro - leveret af Web Wap Solutions
     </description>
     <author href="http://webwapsolutions.com" email="support@webwapsolutions.com">
         Web Wap Solutions Team

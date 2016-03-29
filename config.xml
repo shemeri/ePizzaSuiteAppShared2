@@ -4,13 +4,13 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         xmlns:android = "http://schemas.android.com/apk/res/android"
-        id        = "com.webwapsolutions.epizzaapp.foodlounge"
+        id        = "com.webwapsolutions.epizzaapp.bazarpizza"
         version   = "1.0.0">
 
-    <name>Food Lounge</name>
+    <name>Bazar Pizza og Grill</name>
     <description>
         <!--ePizza Suite App til din hjemmeside-->
-		Food Lounge - Aarhus - Pizzeria App powered by ePizza Suite Pro - leveret af Web Wap Solutions
+		Bazar Pizza og Grill - Brabrand - Pizzeria App powered by ePizza Suite Pro - leveret af Web Wap Solutions
     </description>
     <author href="http://webwapsolutions.com" email="support@webwapsolutions.com">
         Web Wap Solutions Team

@@ -4,13 +4,13 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         xmlns:android = "http://schemas.android.com/apk/res/android"
-        id        = "com.webwapsolutions.epizzaapp.lillealanya"
+        id        = "com.webwapsolutions.epizzaapp.evitapizza"
         version   = "1.0.0">
 
-    <name>Lille Alanya</name>
+    <name>Evita Pizza</name>
     <description>
         <!--ePizza Suite App til din hjemmeside-->
-		Lille Alanya - Randers - Pizzeria App powered by ePizza Suite Pro - leveret af Web Wap Solutions
+		Evita Pizza - Åbyhøj Århus - Pizzeria App powered by ePizza Suite Pro - leveret af Web Wap Solutions
     </description>
     <author href="http://webwapsolutions.com" email="support@webwapsolutions.com">
         Web Wap Solutions Team

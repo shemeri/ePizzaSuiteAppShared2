@@ -32,7 +32,7 @@
 		<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
 		<script type="text/javascript" charset="utf-8" src="cordova.js"></script>
         
-        <script type="text/javascript">
+        <script type="text/javascript" charset="utf-8">
 	    function fixiFrame () {
 	       if ((android) && (androidVersion > 3)) {
 		   	document.getElementById('body_content').style.height = document.getElementById('page').offsetHeight + 'px';
@@ -68,6 +68,7 @@
                 } else {
                     // external url
                     //navigator.notification.alert('Opening website');
+                    //var ref = window.open('http://m.ilparmigiano.no/?app=1', '_self', 'location=no');
                     var ref = window.open('http://m.ilparmigiano.no/?app=1', '_self', 'location=no');
                 }
             }
@@ -76,8 +77,8 @@
     <body onload="onLoad()">
     	<div id="page" style="height:100%;width:100%;font-size:1.2em;">
 			<div style="text-align:center;">
-				<img src="res/screen/generic.png" /><br />
-				Vent venligst...
+				<img src="res/screen/ios/Icon-60@3x.png"><br />
+    			<p style="text-shadow:1px -1px 2px rgba(171,152,147,1);font-weight:bold;text-transform:uppercase;color:#000000;letter-spacing:2pt;word-spacing:0pt;font-size:19px;text-align:center;font-family:helvetica, sans-serif;line-height:1;">Vent venligst...</p>
 			</div>
     	</div>    	
     </body>

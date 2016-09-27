@@ -43,7 +43,8 @@
         permission on your app, which PhoneGap requires.
     -->
     <preference name="permissions"                value="none"/>
-
+	<preference name="phonegap-version" value="cli-5.2.0" />
+	
       <!-- Customize your app and platform with the preference element. -->
     <preference name="SplashScreen" 		  value="generic"/>
     <preference name="orientation"                value="default" />        <!-- all: default means both landscape and portrait are enabled -->
@@ -89,6 +90,7 @@
         <gap:plugin name="org.apache.cordova.network-information" source="npm" />
         <gap:plugin name="org.apache.cordova.splashscreen" source="npm" />
         <gap:plugin name="org.apache.cordova.vibration" source="npm" />
+        <gap:plugin name="org.apache.cordova.whitelist" source="npm" />
         
         <!-- ios -->
         <gap:plugin name="com.phonegap.plugin.statusbar" version="1.1.0" />        

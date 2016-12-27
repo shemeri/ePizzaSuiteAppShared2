@@ -4,13 +4,13 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         xmlns:android = "http://schemas.android.com/apk/res/android"
-        id        = "com.webwapsolutions.epizzaapp.ilparmigiano"
+        id        = "com.webwapsolutions.epizzaapp.demo"
         version   = "1.0.0">
 
     <name>Il Parmigiano</name>
     <description>
         <!--ePizza Suite App til din hjemmeside-->
-		Il Parmigiano - Oslo - Pizzeria App powered by ePizza Suite Pro - leveret af Web Wap Solutions
+		Demo Pizzeria - Pizzeria App powered by eRestaurant Suite Pro - leveret af Web Wap Solutions
     </description>
     <author href="http://webwapsolutions.com" email="support@webwapsolutions.com">
         Web Wap Solutions Team
@@ -43,7 +43,8 @@
         permission on your app, which PhoneGap requires.
     -->
     <preference name="permissions"                value="none"/>
-	<preference name="phonegap-version" value="cli-5.2.0" />
+	<!--<preference name="phonegap-version" value="cli-5.2.0" />-->
+	<preference name="phonegap-version" value="cli-6.3.0" />
 	
       <!-- Customize your app and platform with the preference element. -->
     <preference name="SplashScreen" 		  value="generic"/>

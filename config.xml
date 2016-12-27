@@ -94,7 +94,7 @@
         <gap:plugin name="org.apache.cordova.whitelist" source="npm" />
         
         <!-- ios -->
-        <gap:plugin name="com.phonegap.plugin.statusbar" version="1.1.0" />        
+        <gap:plugin name="com.phonegap.plugin.statusbar" source="npm" />        
         
     <!-- Define app icon for each platform. -->
         Define access to external domains.

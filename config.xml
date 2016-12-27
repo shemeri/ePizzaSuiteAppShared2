@@ -91,7 +91,7 @@
         <gap:plugin name="org.apache.cordova.network-information" source="npm" />
         <gap:plugin name="org.apache.cordova.splashscreen" source="npm" />
         <gap:plugin name="org.apache.cordova.vibration" source="npm" />
-        <gap:plugin name="org.apache.cordova.whitelist" source="npm" />
+        <gap:plugin name="cordova-plugin-whitelist" source="npm" />
         
         <!-- ios -->
         <gap:plugin name="com.phonegap.plugin.statusbar" source="npm" />        

@@ -90,7 +90,7 @@
         <gap:plugin name="org.apache.cordova.network-information" source="npm" />
         <gap:plugin name="org.apache.cordova.splashscreen" source="npm" />
         <gap:plugin name="org.apache.cordova.vibration" source="npm" />
-        <gap:plugin name="org.apache.cordova.whitelist" source="npm" />
+        <!-- <gap:plugin name="org.apache.cordova.whitelist" source="npm" /> -->
         
         <!-- ios -->
         <gap:plugin name="com.phonegap.plugin.statusbar" source="npm" />        
@@ -110,7 +110,7 @@
     <access origin="*"/>
     <!-- Added the following intents to support the removal of whitelist code from base cordova to a plugin -->
     <!-- Whitelist configuration. Refer to https://cordova.apache.org/docs/en/edge/guide_appdev_whitelist_index.md.html -->
-    <!-- <plugin name="cordova-plugin-whitelist" spec="~1" /> -->
+    <plugin name="cordova-plugin-whitelist" spec="~1" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
     <allow-intent href="tel:*" />

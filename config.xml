@@ -4,13 +4,13 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         xmlns:android = "http://schemas.android.com/apk/res/android"
-        id        = "com.webwapsolutions.epizzaapp.ilparmigiano"
+        id        = "com.webwapsolutions.epizzaapp.zagupizza"
         version   = "1.0.0">
 
-    <name>Il Parmigiano</name>
+    <name>Zagu Pizza</name>
     <description>
         <!--ePizza Suite App til din hjemmeside-->
-		Il Parmigiano - Oslo - Pizzeria App powered by ePizza Suite Pro - leveret af Web Wap Solutions
+		Zagu Pizza -  - Pizzeria App powered by eRestaurant Suite Pro - leveret af Web Wap Solutions
     </description>
     <author href="http://webwapsolutions.com" email="support@webwapsolutions.com">
         Web Wap Solutions Team

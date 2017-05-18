@@ -4,13 +4,13 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         xmlns:android = "http://schemas.android.com/apk/res/android"
-        id        = "com.webwapsolutions.epizzaapp.pizzatown"
+        id        = "com.webwapsolutions.epizzaapp.siskulgrill"
         version   = "1.0.0">
 
-    <name><![CDATA[Pizza Town]]></name>
+    <name><![CDATA[SIS KULGRILL]]></name>
     <description>
         <!--eRestaurant Suite App til din hjemmeside-->
-		<![CDATA[Pizza Town - Restaurant App powered by eRestaurant Suite Pro - leveret af Web Wap Solutions]]>
+		<![CDATA[SIS Kulgrill - Restaurant App powered by eRestaurant Suite Pro - leveret af Web Wap Solutions]]>
     </description>
     <author href="http://webwapsolutions.com" email="support@webwapsolutions.com">
         Web Wap Solutions Team

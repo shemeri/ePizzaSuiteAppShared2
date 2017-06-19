@@ -4,13 +4,13 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         xmlns:android = "http://schemas.android.com/apk/res/android"
-        id        = "com.webwapsolutions.epizzaapp.dinpizza"
+        id        = "com.webwapsolutions.epizzaapp.marmarisvejle"
         version   = "1.0.0">
 
-    <name><![CDATA[Din Pizza]]></name>
+    <name><![CDATA[Marmaris]]></name>
     <description>
         <!--eRestaurant Suite App til din hjemmeside-->
-		<![CDATA[Din Pizza - Restaurant App powered by eRestaurant Suite Pro - leveret af Web Wap Solutions]]>
+		<![CDATA[Marmaris Vejle - Restaurant App powered by eRestaurant Suite Pro - leveret af Web Wap Solutions]]>
     </description>
     <author href="http://webwapsolutions.com" email="support@webwapsolutions.com">
         Web Wap Solutions Team

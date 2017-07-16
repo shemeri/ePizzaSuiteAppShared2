@@ -4,7 +4,7 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         xmlns:android = "http://schemas.android.com/apk/res/android"
-        id        = "com.webwapsolutions.epizzaapp.pappassvendborg"
+        id        = "com.webwapsolutions.epizzaapp.pappaspizza"
         version   = "1.1.0">
 
     <name><![CDATA[Pappas Pizza]]></name>

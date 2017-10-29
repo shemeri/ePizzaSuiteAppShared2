@@ -43,7 +43,8 @@
         permission on your app, which PhoneGap requires.
     -->
     <preference name="permissions"                value="none"/>
-	<preference name="phonegap-version" value="cli-5.2.0" />
+	<!--<preference name="phonegap-version" value="cli-5.2.0" />-->
+	<preference name="phonegap-version" value="cli-7.0.1" />
 	
       <!-- Customize your app and platform with the preference element. -->
     <preference name="SplashScreen" 		  value="generic"/>

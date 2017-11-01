@@ -33,13 +33,13 @@
 		<script type="text/javascript" charset="utf-8" src="cordova.js"></script>
         
         <script type="text/javascript" charset="utf-8">
-	    function fixiFrame () {
-	       if ((android) && (androidVersion > 3)) {
-		   	document.getElementById('body_content').style.height = document.getElementById('page').offsetHeight + 'px';
-	       }
-	    }        
+	    	function fixiFrame () {
+	       		if ((android) && (androidVersion > 3)) {
+		   			document.getElementById('body_content').style.height = document.getElementById('page').offsetHeight + 'px';
+	       		}
+	    	}        
             function checkConnection() {
-               var networkState = navigator.network.connection.type;
+               var networkState = navigator.connection.type;
                var states = {};
                states[Connection.UNKNOWN]  = 'Unknown connection';
                states[Connection.ETHERNET] = 'Ethernet connection';
@@ -60,6 +60,25 @@
 				//document.addEventListener("online", this.onOnline, false);    			
 		    }
             function onDeviceReady() {
+		    	// Depending on the device, a few examples are:
+			   	//   - "Android"
+			   	//   - "BlackBerry 10"
+			   	//   - "browser"
+			   	//   - "iOS"
+			   	//   - "WinCE"
+			   	//   - "Tizen"
+			   	//   - "Mac OS X"
+			   	var devicePlatform = device.platform;
+			   	var model = device.model;
+			   	var uuid = device.uuid;
+			   	var version = device.version;
+			   	//Android
+			   	//BlackBerry 10
+			   	//iOS
+			   	//Windows Phone 7 and 8
+			   	//Windows
+			   	var manufacturer = device.manufacturer;
+            	
             	//var ref = window.open('http://demo.epizzeria.dk/?app=1', '_blank', 'location=no');
                 var networkState = checkConnection();
                 /* load local files if there is not network connection */
@@ -69,7 +88,7 @@
                     // external url
                     //navigator.notification.alert('Opening website');
                     //var ref = window.open('http://m.ilparmigiano.no/?app=1', '_self', 'location=no');
-                    var ref = window.open('http://m.pappas-svendborg.dk/?app=1', '_self', 'location=no');
+                    var ref = window.open('http://m.pappas-svendborg.dk/?app=1&device='+devicePlatform, '_self', 'location=no');
                 }
             }
         </script>

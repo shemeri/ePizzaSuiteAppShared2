@@ -67,11 +67,13 @@
         <allow-intent href="itms-apps:*" />
     </platform>
     <icon src="www/icon.png" />
+    <!-- 
     <icon gap:platform="android" gap:qualifier="ldpi" src="www/res/screen/android/res-dk-long-port-ldpi/default.png" />
     <icon gap:platform="android" gap:qualifier="mdpi" src="www/res/screen/android/res-dk-long-port-mdpi/default.png" />
     <icon gap:platform="android" gap:qualifier="hdpi" src="www/res/screen/android/res-dk-long-port-hdpi/default.png" />
     <icon gap:platform="android" gap:qualifier="xhdpi" src="www/res/screen/android/res-dk-long-port-xhdpi/default.png" />
     <icon gap:platform="android" gap:qualifier="xxhdpi" src="www/res/screen/android/res-dk-long-port-xxhdpi/default.png" />
+    -->
     <gap:splash gap:platform="android" gap:qualifier="port-ldpi" src="www/res/splash/drawable-ldpi/splash.png" />
     <gap:splash gap:platform="android" gap:qualifier="port-mdpi" src="www/res/splash/drawable-mdpi/splash.png" />
     <gap:splash gap:platform="android" gap:qualifier="port-hdpi" src="www/res/splash/drawable-hdpi/splash.png" />

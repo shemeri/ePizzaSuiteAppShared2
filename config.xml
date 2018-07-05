@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.webwapsolutions.epizzaapp.venedigpizza" version="1.1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="com.webwapsolutions.epizzaapp.istanbulpizza" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>Venedig Pizza</name>
     <description>
-		Venedig Pizza - Restaurant App powered by eRestaurant Suite Pro - leveret af Web Wap Solutions
+		Istanbul Pizza Odense - Restaurant App powered by eRestaurant Suite Pro - leveret af Web Wap Solutions
     </description>
-    <author email="support@webwapsolutions.com" href="http://webwapsolutions.com">
+    <author email="info-apps@webwapsolutions.com" href="http://webwapsolutions.com">
         Web Wap Solutions Team - 2018
     </author>
     <dependency id="cordova-plugin-geolocation" />

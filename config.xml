@@ -21,7 +21,9 @@
         <preference name="Fullscreen" value="false" />
     </platform>
     <preference name="permissions" value="none" />
-    <preference name="phonegap-version" value="cli-8.0.0" />
+    <!-- <preference name="phonegap-version" value="cli-8.0.0" />  -->
+    <!--  <preference name="phonegap-version" value="cli-7.0.1" />  -->
+    <preference name="phonegap-version" value="cli-7.1.0" />
     <preference name="SplashScreen" value="generic" />
     <preference name="orientation" value="default" />
     <preference name="target-device" value="universal" />

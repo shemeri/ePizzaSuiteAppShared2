@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.webwapsolutions.epizzaapp.istanbulpizza" version="1.0.2" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>Istanbul Pizza</name>
+<widget id="com.webwapsolutions.epizzaapp.starpizzagrenaa" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>Star Pizza Grenå</name>
     <description>
-		Istanbul Pizza Horsens - Restaurant App powered by eRestaurant Suite Pro - leveret af Web Wap Solutions
+		Star Pizza Grenå - Restaurant App powered by eRestaurant Suite Pro - leveret af Web Wap Solutions
     </description>
     <author email="info-apps@webwapsolutions.com" href="http://webwapsolutions.com">
         Web Wap Solutions Team - 2018

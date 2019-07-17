@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.webwapsolutions.epizzaapp.osolomioodense" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>O Sole Mio</name>
+<widget id="com.webwapsolutions.epizzaapp.lapizza" version="1.1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>La Pizza</name>
     <description>
-		O Sole Mio Odense - Restaurant App powered by eRestaurant Suite Pro - leveret af Web Wap Solutions
+		La Pizza App - Restaurant App powered by eRestaurant Suite Pro - leveret af Web Wap Solutions
     </description>
     <author email="info-apps@webwapsolutions.com" href="http://webwapsolutions.com">
         Web Wap Solutions Team - 2019

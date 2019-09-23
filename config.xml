@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.webwapsolutions.epizzaapp.stevnstruppizza" version="1.1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="com.webwapsolutions.epizzaapp.stevnstruppizza" version="1.1.1" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>Stevnstrup Pizza</name>
     <description>
 		Stevnstrup Pizza App - Restaurant App powered by eRestaurant Suite Pro - leveret af Web Wap Solutions
@@ -14,6 +14,7 @@
         <param name="ios-package" value="CDVSplashScreen" />
     </feature>
     <platform name="android">
+        <preference name="usesCleartextTraffic" value="true" />
         <preference name="Fullscreen" value="false" />
     </platform>
     <platform name="ios">

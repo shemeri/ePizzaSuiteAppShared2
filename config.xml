@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.webwapsolutions.epizzaapp.stevnstruppizza" version="1.1.1" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="com.webwapsolutions.epizzaapp.stevnstruppizza" version="1.1.1" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>Stevnstrup Pizza</name>
     <description>
 		Stevnstrup Pizza App - Restaurant App powered by eRestaurant Suite Pro - leveret af Web Wap Solutions
@@ -13,14 +13,6 @@
         <param name="android-package" value="org.apache.cordova.SplashScreen" />
         <param name="ios-package" value="CDVSplashScreen" />
     </feature>
-    <platform name="android">
-        <preference name="usesCleartextTraffic" value="true" />
-        <preference name="Fullscreen" value="false" />
-    </platform>
-    <platform name="ios">
-        <preference name="StatusBarOverlaysWebView" value="false" />
-        <preference name="Fullscreen" value="false" />
-    </platform>
     <preference name="permissions" value="none" />
     <preference name="phonegap-version" value="cli-9.0.0" />
     <preference name="SplashScreen" value="generic" />
@@ -47,6 +39,9 @@
     <gap:config-file parent="/manifest/application" platform="android">
         <activity android:launchMode="singleInstance" />
     </gap:config-file>
+    <config-file mode="merge" parent="/manifest" platform="android">
+        <application android:usesCleartextTraffic="true" />
+    </config-file>
     <allow-navigation href="*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
@@ -55,9 +50,15 @@
     <allow-intent href="geo:*" />
     <allow-intent href="*" />
     <platform name="android">
+        <edit-config file="app/src/main/AndroidManifest.xml" mode="merge" target="/manifest/application" xmlns:android="http://schemas.android.com/apk/res/android">
+            <application android:usesCleartextTraffic="true" />
+        </edit-config>
         <allow-intent href="market:*" />
+        <preference name="Fullscreen" value="false" />
     </platform>
     <platform name="ios">
+        <preference name="StatusBarOverlaysWebView" value="false" />
+        <preference name="Fullscreen" value="false" />
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
     </platform>
@@ -92,7 +93,7 @@
     <icon gap:platform="ios" height="100" src="www/res/screen/ios/Icon-Small-50@2x.png" width="100" />
     <icon gap:platform="ios" height="512" src="www/res/screen/ios/iTunesArtwork.png" width="512" />
     <icon gap:platform="ios" height="1024" src="www/res/screen/ios/iTunesArtwork@2x.png" width="1024" />
-    <engine name="android" spec="~6.3.0" />
+    <engine name="android" spec="^6.3.0" />
     <engine name="browser" spec="^5.0.4" />
     <plugin name="cordova-plugin-dialogs" spec="~1.3.3" />
     <plugin name="cordova-plugin-statusbar" spec="~2.2.3" />

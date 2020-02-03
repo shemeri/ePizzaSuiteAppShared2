@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.webwapsolutions.epizzaapp.pizzaloeg" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>Pizza Løg</name>
+<widget id="com.webwapsolutions.epizzaapp.stenovnsvendborg" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>Stenovn Svendborg</name>
     <description>
-		Pizza Løg - Restaurant App powered by eRestaurant Suite Pro - leveret af Web Wap Solutions
+		Stenovn Svendborg - Restaurant App powered by eRestaurant Suite Pro - leveret af Web Wap Solutions
     </description>
     <author email="info-apps@webwapsolutions.com" href="http://webwapsolutions.com">
         Web Wap Solutions Team - 2019
